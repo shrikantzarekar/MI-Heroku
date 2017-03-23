@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Node-RED in Heroku</title>
+	<title>Orient Cement</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <div class="header">
     <div class="header-content">
-        <a href="/"><img class="logo" src="images/node-red.png" /> Node-RED in Heroku</a>
+        <a href="/"><img class="logo" src="images/node-red.png" /> Machine Integration</a>
     </div>
 </div>
 <!-- Grid 1 -->
@@ -26,8 +26,8 @@
     <div class="grid">
         <div class="col-1-1">
             <div class="content">
-                <h1>Node-RED in Heroku</h1>
-                <h2>A visual tool for wiring the Internet of Things</h2>
+                <h1>Machine Integration @ Orient Cement</h1>
+                <h2>Realtime condition monitoring for our Jalgaon plant</h2>
                 <img src="images/node-red-title-flow.png" />
             </div>
         </div>
@@ -39,16 +39,16 @@
     <div class="grid">
         <div class="col-1-2">
             <div class="content blurb">
-            <p>Node-RED provides a browser-based editor that makes it easy to wire together flows that can be deployed to the runtime in a single-click.</p>
-            <p>The version running here has been customised for the Heroku.</p>
-            <p>More information about Node-RED, including documentation, can be found at <a href="http://nodered.org">nodered.org</a>.</p>
+            <p>Special thanks to <b>Mr. Rahul Deshmukh</b>(COO Orient Cement) for his invaluable guidance and support.</p>
+            <p>This system developed under mentorship of <b>Mr. DD Gaur.</b></p>
+            <p>Thanks to <u>Mr. M P Joshi(Jalgaon Plant Head) and Mr. Alok Bagaria.</u> who have helped in shaping up the system in design and execution phases. </p>
             </div>
         </div>
         <div class="col-1-2">
             <div class="content blurb">
-                <p style="text-align: center"><a style="width:350px;" class="button" href="red/">Go to your Node-RED flow editor</a></p>
-                <p class="insecure hide" style="text-align: center"><a href="#password-protecting">Learn how to password-protect your instance</a></p>
-                <p style="text-align: center"><a href="#custom">Learn how to customise Node-RED</a></p>
+                <p style="text-align: center"><a style="width:350px;" class="button" href="ui/">Go to Condition Monitoring Section</a></p>
+                
+                <p style="text-align: center"><a href="#advantages">Advantages of this system</a></p>
             </div>
         </div>
     </div>
@@ -59,42 +59,26 @@
     <div class="grid">
         <div class="col-1-1">
             <div class="content blurb">
-                <h3 id="custom">Customising your instance of Node-RED</h3>
-                <p>This template instance of Node-RED is enough to get you started creating flows.<p>
-                <p>You may want to customise it for your needs,
-                for example replacing this introduction page with your own, adding http authentication to the flow editor or adding new nodes to
-                the palette.</p>
+                <h3 id="advantages">Advantages of Condition Monitoring @ Jalgaon Plant</h3>
+                <p><code> <h4>"Our people are the heart and mind of our organisation, our machines are its strong arms."</h4></code><p>
+                <p>We produce highest quality cement, and to make it happen, health of our machines is utmost importance. This systems helps our team to monitor and take proactive decisions w.r.t plant health.</p>
                 <p style="clear:both"></p>
 
-                <h4 id="password-protecting">Password protect the flow editor</h4>
-                <p>By default, the editor is open for anyone to access and modify flows. To password-protect the editor:</p>
-                <p>Add the following user-defined variables.</p>
+                <h4>Real time condition Monitoring</h4>
+                <p>Through this system, our team can monitor important parameters related to plant condition.</p>
                 <ul>
-                  <li><code>NODE_RED_USERNAME</code> - the username to secure the editor with</li>
-                  <li><code>NODE_RED_PASSWORD</code> - the password to secure the editor with</li>
+                  <li>No doubt CCR was always a phone call away- but now it is as easy as just a tap on your mobile screen </li>
+                  <li>Trends and graphs for complete visibility on machine health when ever and where ever you are.</li>
+                  <li>More than 100 parameters being monitored and still more will be added</li>
                 </ul>
 
-                <h4>Adding new nodes to the palette</h4>
+                <h4>Relavant SMS Alerts to our teams</h4>
                 <ol>
-                    <li>There is a growing collection of additional nodes that can be added to the Node-RED editor.
-                    You can search for available nodes in the <a target="_blank" href="http://flows.nodered.org">Node-RED library</a>.</li>
-                    <li>Edit the file <code>package.json</code> and add the required node package to the <code>dependencies</code>
-                    section. The format is:
-                    <pre>"node-red-node-package-name":"x.x.x"</pre>
-                    Where <code>x.x.x</code> is the desired version number.</li>
+                    <li>Automatic SMS alerts will be send to concerned people, with relavent information.</li>
+                    <li>Information on Location, criticality, current value and type of alert is included in the SMS.</li>
                 </ol>
 
-                <h4>Upgrading the version of Node-RED</h4>
-                <ol><li>This boilerplate is configured to grab the latest stable release of Node-RED whenever the
-                    application is pushed into Heroku.</li>
-                </ol>
-
-                <h4>Changing the static web content</h4>
-                <ol><li>The page you are reading now is served as static content from the application. This can be replaced
-                with whatever content you want in the <code>public</code> directory.</li></ol>
-
-                <h4>Remove static web content and serve the flow editor from the root path</h4>
-                <ol><li>In the file <code>settings.js</code>, delete the <code>httpStatic</code> and <code>httpAdminRoot</code> entries.</li></ol>
+                
             </div>
         </div>
     </div>
@@ -103,8 +87,8 @@
 <div class="footer">
     <div class="grid">
         <div class="content">
-            <div class="ets-link"><a href="http://ibm.com/blogs/et">Node-RED is a creation of IBM Emerging Technology</a></div>
-            <div class="ets-link"><a href="http://ibm.com/blogs/et"><img class="ets-globe" src="images/ets-globe.png" /> </a></div>
+            <div class="ets-link"><a href="http://orientcement.com"><img class="ets-globe" src="images/logo.jpg" /> </a></div>
+            <div class="ets-link"><a href="http://orientcement.com">Machine Integration @ Orient Cement</a> is developed with ❤ by <a href="http://facebook.com/shrikantzarekar">Shrikant</a></div>
         </div>
     </div>
 </div>
