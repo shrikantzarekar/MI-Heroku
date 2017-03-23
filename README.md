@@ -1,7 +1,7 @@
 node-red-heroku
 ================
 
-A wrapper for deploying [Node-RED](http://nodered.org) into the [Heroku](https://www.heroku.com).
+A wrapper for deploying [Node-Silver](http://nodesilver.org) into the [Heroku](https://www.heroku.com).
 
 ### Deploying Node-RED into Heroku
 
