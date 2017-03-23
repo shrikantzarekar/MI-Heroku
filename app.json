@@ -1,10 +1,10 @@
 {
-  "name": "Node-RED",
+  "name": "OC-MI",
   "description": "A visual tool for wiring the Internet of Things.",
-  "keywords": [ "Node-RED", "IoT", "Internet of Things", "node.js", "node" ],
-  "website": "http://nodered.org/",
-  "repository": "https://github.com/joeartsea/node-red-heroku.git",
-  "logo": "http://nodered.org/node-red.png",
+  "keywords": [ "OC-MI", "IoT", "Internet of Things", "node.js", "node" ],
+  "website": "",
+  "repository": "https://github.com/shrikantzarekar/MI-Heroku",
+  "logo": "http://www.orientcement.com/wp-content/themes/orient/assets/images/Orient%20Logo%20(3).jpg",
   "success_url": "/",
   "env": {
     "NODE_RED_USERNAME": {
