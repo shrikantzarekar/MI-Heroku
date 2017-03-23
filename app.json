@@ -4,7 +4,7 @@
   "keywords": [ "OC-MI", "IoT", "Internet of Things", "node.js", "node" ],
   "website": "",
   "repository": "https://github.com/shrikantzarekar/MI-Heroku",
-  "logo": "http://www.orientcement.com/wp-content/themes/orient/assets/images/Orient%20Logo%20(3).jpg",
+  "logo": "http://www.slnterminus.com/new/wp-content/uploads/2014/07/ckbirla.png",
   "success_url": "/",
   "env": {
     "NODE_RED_USERNAME": {
