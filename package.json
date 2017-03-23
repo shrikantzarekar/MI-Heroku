@@ -1,5 +1,5 @@
 {
-    "name"         : "machine-integration",
+    "name"         : "orient-cement-mi",
     "version"      : "0.0.1",
     "dependencies": {
         "when": "~3.x",
